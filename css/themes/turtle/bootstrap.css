@@ -1100,7 +1100,7 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #2ecc71;
+  color: #e912f6;
   text-decoration: none;
 }
 a:hover,
@@ -3182,7 +3182,7 @@ fieldset[disabled] .btn-primary.focus {
 .btn-success:focus,
 .btn-success.focus {
   color: #ffffff;
-  background-color: #42b142;
+  background-color: #e912f6;
   border-color: #2d792d;
 }
 .btn-success:hover {
