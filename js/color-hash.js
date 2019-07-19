@@ -47,7 +47,7 @@ var RGB2HEX = function(RGBArray) {
 /**
  * Convert HSL to RGB
  *
- * @see {@link http://zh.wikipedia.org/wiki/HSL和HSV色彩空间} for further information.
+ * @see {@link https://zh.wikipedia.org/wiki/HSL和HSV色彩空间} for further information.
  * @param {Number} H Hue ∈ [0, 360)
  * @param {Number} S Saturation ∈ [0, 1]
  * @param {Number} L Lightness ∈ [0, 1]
