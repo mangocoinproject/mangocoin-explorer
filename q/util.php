@@ -2,7 +2,7 @@
 
 function build_post_context(string $postdata) {
         return stream_context_create(array(
-                'https' =>
+                'http' =>
                         array(
                                 'method' => 'POST',
                                 'header' => 'application/json',

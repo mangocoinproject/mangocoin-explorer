@@ -41,7 +41,7 @@ var renderPoolRow = function(host, name, data, d) {
     var pools_row = [];
 
     pools_row.push('<tr>');
-    pools_row.push('<td id=host-'+name+'><a target=blank href=https://'+host+'>'+name+'</a></td>');
+    pools_row.push('<td id=host-'+name+'><a target=blank href=http://'+host+'>'+name+'</a></td>');
     pools_row.push('<td class="height" id=height-'+name+'>'+localizeNumber(data.network.height)+'</td>');
     pools_row.push('<td id=hashrate-'+name+'>'+localizeNumber(data.pool.hashrate)+' H/s</td>');
     pools_row.push('<td id=miners-'+name+'>'+localizeNumber(data.pool.miners)+'</td>');

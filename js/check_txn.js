@@ -29,7 +29,7 @@ function checkTxn(transactionResponse, privateKey, address, privateKeyType) {
     var s = 8, m = s + 64, e = m + 64; //offsets
     if (privateKey.length !== 64 || validHex(privateKey) !== true){
         results.error = "Invalid private key.";
-    } else if (address.length != 95 || (addrHex.slice(-s) !== cn_fast_hash(addrHex.slice(0,-s)).slice(0,s))) { //Changed 99 to 95
+    } else if (address.length != 99 || (addrHex.slice(-s) !== cn_fast_hash(addrHex.slice(0,-s)).slice(0,s))) {
         results.error = "Bad address";
     } else if (privateKeyType === 'view' && addrHex.slice(m,e) !== sec_key_to_pub(privateKey)) {
 	results.error = "Secret View key does not match address.";
