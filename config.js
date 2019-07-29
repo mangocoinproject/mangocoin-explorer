@@ -9,7 +9,8 @@ var refreshDelay = 30000;
 // pools stats by MainCoins
 var networkStat = {
  "MNG": [
-	["pool.mangocoin.online", "http://pool.mangocoin.online:3107"]
+	["pool.mangocoin.online", "http://pool.mangocoin.online:3107"],
+	["mng.line-pool.ru", "http://mng.line-pool.ru:8117"]
  ]
 };
 
