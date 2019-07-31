@@ -9,10 +9,8 @@ Block explorer for Mangocoin CryptoNote based cryptocurrency.
 ```
 2) Just upload to your website and change 'api' variable in config.js to point to your daemon.
 
-
 ### Development
 Donate: [MNG] MEpLh1LswBqihtwVB7VuYAQP7E39SYSwVQwFVyAjpGd6fdALVvZk74YTq5jTo4DNnTdkw2wcWCzJ2EtVJ9k9DhioBWQ7GGq
 
 ### Note
-
 A lot of this code is from the great Karbovanets/Karbowanec-Blockchain-Explorer
