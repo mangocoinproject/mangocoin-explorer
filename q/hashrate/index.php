@@ -8,3 +8,4 @@ $difficulty = $info['difficulty'];
 $hashrate = round($difficulty / $config['blockTargetInterval']);
 
 print_r($hashrate);
+?>
