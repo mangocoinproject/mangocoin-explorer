@@ -11,4 +11,3 @@ $supplyRaw = $blockData[result][block][alreadyGeneratedCoins];
 $supply = number_format($supplyRaw / $config['coinUnits'], 2, ".", "");
 
 print_r($supply);
-?> //added this line

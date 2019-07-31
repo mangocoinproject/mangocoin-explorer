@@ -29,4 +29,3 @@ function fetch_getinfo(string $api) {
         $response = file_get_contents($_url);
         return json_decode($response, true);
 };
-?>
