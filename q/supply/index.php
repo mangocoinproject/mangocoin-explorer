@@ -8,6 +8,6 @@ $hash = $hashData['result']['block_header']['hash'];
 $blockData = fetch_rpc($config['api'], 'f_block_json', '{"hash":"'.$hash.'"}');
 $supplyRaw = $blockData[result][block][alreadyGeneratedCoins];
 
-$supply = number_format($supplyRaw / $config['coinUnits'], 2, ".", "");
+$supply = number_format($supplyRaw / $config['coinUnits'], 8, ".", ""); //changed from 2
 
 print_r($supply);
