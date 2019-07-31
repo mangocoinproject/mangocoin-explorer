@@ -8,3 +8,4 @@ $rewardRaw = $blockHeader['result']['block_header']['reward'];
 $reward = number_format($rewardRaw / 100, 2, ".", "");
 
 print_r($reward);
+?> //added this line
