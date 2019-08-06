@@ -10,7 +10,9 @@ var refreshDelay = 30000;
 var networkStat = {
  "mng": [
 	["pool.mangocoin.online", "http://pool.mangocoin.online:3107"],
-	["mng.line-pool.ru", "http://mng.line-pool.ru/api"]
+	["mng.line-pool.ru", "http://mng.line-pool.ru/api"],
+	["webmng.semipool.com", "https://webmng.semipool.com/api"],
+	["mng.miningpool.fun", "http://mng.miningpool.fun:8119"]
  ]
 };
 
