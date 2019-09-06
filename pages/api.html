@@ -112,7 +112,7 @@
                     cache: 'false',
                     success: function(data) {
                     block = data.result.block;
-                        updateText('totalCoins', getReadableCoins(block.alreadyGeneratedCoins,8));
+                        updateText('totalCoins', getReadableCoins(block.alreadyGeneratedCoins,9));
                         updateText('emissionPercent', (block.alreadyGeneratedCoins / totalSupply * 100).toFixed(4));
                         updateText('currentReward', getReadableCoins(block.baseReward,4));
                     }
