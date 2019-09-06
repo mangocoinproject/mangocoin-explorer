@@ -186,7 +186,7 @@
                     block = data.result.block;
                         updateText('totalCoins', getReadableCoins(block.alreadyGeneratedCoins,2));
                         // Added line below
-                        updateText('totalSupply', getReadableCoins(block.alreadyGeneratedCoins,10));
+                        updateText('totalSupply', getReadableCoins(totalSupply));
                         
                         updateText('emissionPercent', (block.alreadyGeneratedCoins / totalSupply * 100).toFixed(4));
                         updateText('currentReward', getReadableCoins(block.baseReward,4));
