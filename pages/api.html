@@ -1,7 +1,7 @@
 <h2><i class="fa fa-code" aria-hidden="true"></i> API <small id="paymend_id" style="word-break: break-all;"></small></h2>
 
 <div class="container">
-		<div class="row">
+     <div class="row">
           <div class="col-lg-12">
                 <h4>Supported APIs</h4>
                 <ul>
@@ -10,8 +10,8 @@
                   <li><i class="fa fa-certificate"></i> Block Reward: <span id="currentReward"></span></li>
                   <li><i class="fa fa-money"></i> Circulating Supply: <span id="totalCoins"></span></li>
                 </ul>
-		     </div>
-		</div>
+          </div>
+      </div>
 </div>
 
 <!-- Old One
@@ -112,7 +112,7 @@
                     cache: 'false',
                     success: function(data) {
                     block = data.result.block;
-                        updateText('totalCoins', getReadableCoins(block.alreadyGeneratedCoins,2));
+                        updateText('totalCoins', getReadableCoins(block.alreadyGeneratedCoins,8));
                         updateText('emissionPercent', (block.alreadyGeneratedCoins / totalSupply * 100).toFixed(4));
                         updateText('currentReward', getReadableCoins(block.baseReward,4));
                     }
