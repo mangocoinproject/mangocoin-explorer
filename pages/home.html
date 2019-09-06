@@ -21,7 +21,7 @@
                             <li><i class="fa fa-lock"></i> Average Difficulty: <span id="avgDifficulty"></span></li>
                             <li><i class="fa fa-tachometer"></i> Hash Rate: <span id="networkHashrate"></span></li>
                             <li><i class="fa fa-clock-o"></i> Average Hash Rate: <span id="avgHashrate"></span></li>
-                            <!-- <li><a href="#" data-toggle="tooltip" data-placement="bottom" data-original-title="Estimated block solve time at estimated network speed and current difficulty."><i class="fa fa-circle-o-notch" aria-hidden="true"></i> Solve time: <span id="blockSolveTime"></span></a></li>-->
+                            <li><a href="#" data-toggle="tooltip" data-placement="bottom" data-original-title="Estimated block solve time at estimated network speed and current difficulty."><i class="fa fa-circle-o-notch" aria-hidden="true"></i> Solve time: <span id="blockSolveTime"></span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -417,10 +417,10 @@
         }
         var avgDiff = Math.round(sum / Difficulties.length);
         var avgHashRate = avgDiff / blockTargetInterval;
-// uncommented bottom two lines
+// uncommented bottom three lines
         updateText('avgDifficulty', getReadableDifficultyString(avgDiff, 0).toString());
         updateText('avgHashrate', getReadableHashRateString(avgDiff / blockTargetInterval));
-        // updateText('blockSolveTime', getReadableTime(lastStats.difficulty / avgHashRate)); Add back after timestamp is added to mempool
+        updateText('blockSolveTime', getReadableTime(lastStats.difficulty / avgHashRate)); Add back after timestamp is added to mempool
     }
 
     //  Turtle MemPool Transactions
