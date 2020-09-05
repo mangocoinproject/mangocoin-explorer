@@ -10,9 +10,11 @@ var refreshDelay = 30000;
 var networkStat = {
  "mng": [
 	["pool.mangocoin.online", "http://pool.mangocoin.online:3107"],
-	["mng.line-pool.ru", "http://mng.line-pool.ru/api"],
 	["webmng.semipool.com", "https://webmng.semipool.com/api"],
-	["mng.miningpool.fun", "http://mng.miningpool.fun:8119"]
+	["mng.miningpool.fun", "https://mng.miningpool.fun:8111"],
+	["fastpool.xyz", "https://fastpool.xyz:10088"],
+	["mn.pool-pay.com", "http://mng.pool-pay.com:8727"],
+	["mng.cryptonote.club", "https://mng.cryptonote.club:8199"],
  ]
 };
 
