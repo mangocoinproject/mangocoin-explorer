@@ -14,7 +14,7 @@ var networkStat = {
 	["mng.miningpool.fun", "https://mng.miningpool.fun:8111"],
 	["fastpool.xyz", "https://fastpool.xyz:10088"],
 	["mn.pool-pay.com", "http://mng.pool-pay.com:8727"],
-	["mng.cryptonote.club", "https://mng.cryptonote.club:8199"],
+	["mng.cryptonote.club", "https://mng.cryptonote.club:8199"]
  ]
 };
 
